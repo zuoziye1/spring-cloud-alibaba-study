@@ -2,15 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consumer" />
-        <module name="openfeign" />
-        <module name="server" />
         <module name="demo" />
+        <module name="starter" />
         <module name="spring-cloud-nacos" />
+        <module name="server" />
+        <module name="openfeign" />
+        <module name="consumer" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +23,7 @@
       <module name="openfeign" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="spring-cloud-nacos" options="-parameters" />
+      <module name="starter" options="-parameters" />
     </option>
   </component>
 </project>

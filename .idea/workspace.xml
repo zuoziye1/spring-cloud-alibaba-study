@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f0e5984-56f7-4d1e-90cc-964a45968578" name="Default Changelist" comment="" />
+    <list default="true" id="6f0e5984-56f7-4d1e-90cc-964a45968578" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/starterstudy/starter/config/ThreadPoolAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/nacosconfig/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/nacosconfig/demo/DemoApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +27,10 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,6 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="21i43MHoI0ZM4skmUL3iiTHA4LO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +60,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -50,7 +69,23 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OpenfeignApplication">
+  <component name="RunManager" selected="JUnit.DemoApplicationTests.contextLoads">
+    <configuration name="DemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nacosconfig.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nacosconfig.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.nacosconfig.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nacos.discovery.consumer.ConsumerApplication" />
@@ -79,6 +114,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.starterstudy.starter.StarterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -103,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638410373326</updated>
       <workItem from="1638410375939" duration="11660000" />
-      <workItem from="1638507719098" duration="5900000" />
+      <workItem from="1638507719098" duration="8484000" />
     </task>
     <servers />
   </component>
@@ -111,52 +158,56 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1341" height="174" key="GridCell.Tab.0.bottom" timestamp="1638508680664">
+    <state x="512" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1638525719217">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1638508680664" />
+    <state x="512" y="132" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1638525719217" />
+    <state width="1341" height="140" key="GridCell.Tab.0.bottom" timestamp="1638527274080">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1341" height="140" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1638527274080" />
     <state width="1341" height="115" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1638503321335" />
     <state width="1341" height="152" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1638503722810" />
-    <state width="1341" height="174" key="GridCell.Tab.0.center" timestamp="1638508680663">
+    <state width="1341" height="140" key="GridCell.Tab.0.center" timestamp="1638527274079">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1638508680663" />
+    <state width="1341" height="140" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1638527274079" />
     <state width="1341" height="115" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1638503321334" />
     <state width="1341" height="152" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1638503722809" />
-    <state width="1341" height="174" key="GridCell.Tab.0.left" timestamp="1638508680663">
+    <state width="1341" height="140" key="GridCell.Tab.0.left" timestamp="1638527274078">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1638508680663" />
+    <state width="1341" height="140" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1638527274078" />
     <state width="1341" height="115" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1638503321333" />
     <state width="1341" height="152" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1638503722808" />
-    <state width="1341" height="174" key="GridCell.Tab.0.right" timestamp="1638508680664">
+    <state width="1341" height="140" key="GridCell.Tab.0.right" timestamp="1638527274079">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1638508680664" />
+    <state width="1341" height="140" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1638527274079" />
     <state width="1341" height="115" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1638503321334" />
     <state width="1341" height="152" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1638503722809" />
-    <state width="1341" height="174" key="GridCell.Tab.1.bottom" timestamp="1638508680666">
+    <state width="1341" height="138" key="GridCell.Tab.1.bottom" timestamp="1638525302944">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1638508680666" />
+    <state width="1341" height="138" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1638525302944" />
     <state width="1341" height="115" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1638503321336" />
     <state width="1341" height="152" key="GridCell.Tab.1.bottom/0.23.1440.839@0.23.1440.839" timestamp="1638503722811" />
-    <state width="1341" height="174" key="GridCell.Tab.1.center" timestamp="1638508680665">
+    <state width="1341" height="138" key="GridCell.Tab.1.center" timestamp="1638525302943">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1638508680665" />
+    <state width="1341" height="138" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1638525302943" />
     <state width="1341" height="115" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1638503321336" />
     <state width="1341" height="152" key="GridCell.Tab.1.center/0.23.1440.839@0.23.1440.839" timestamp="1638503722810" />
-    <state width="1341" height="174" key="GridCell.Tab.1.left" timestamp="1638508680665">
+    <state width="1341" height="138" key="GridCell.Tab.1.left" timestamp="1638525302943">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1638508680665" />
+    <state width="1341" height="138" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1638525302943" />
     <state width="1341" height="115" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1638503321335" />
     <state width="1341" height="152" key="GridCell.Tab.1.left/0.23.1440.839@0.23.1440.839" timestamp="1638503722810" />
-    <state width="1341" height="174" key="GridCell.Tab.1.right" timestamp="1638508680665">
+    <state width="1341" height="138" key="GridCell.Tab.1.right" timestamp="1638525302944">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1341" height="174" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1638508680665" />
+    <state width="1341" height="138" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1638525302944" />
     <state width="1341" height="115" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1638503321336" />
     <state width="1341" height="152" key="GridCell.Tab.1.right/0.23.1440.839@0.23.1440.839" timestamp="1638503722811" />
     <state width="1341" height="174" key="GridCell.Tab.2.bottom" timestamp="1638508680668">
@@ -188,10 +239,10 @@
     </state>
     <state x="229" y="84" key="Maven.ArtifactSearchDialog/0.23.1440.837@0.23.1440.837" timestamp="1638507566073" />
     <state x="229" y="84" key="Maven.ArtifactSearchDialog/0.23.1440.839@0.23.1440.839" timestamp="1638503733512" />
-    <state x="200" y="61" key="SettingsEditor" timestamp="1638520732323">
+    <state x="200" y="61" key="SettingsEditor" timestamp="1638526591868">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="200" y="61" key="SettingsEditor/0.23.1440.837@0.23.1440.837" timestamp="1638520732323" />
+    <state x="200" y="61" key="SettingsEditor/0.23.1440.837@0.23.1440.837" timestamp="1638526591868" />
     <state width="592" height="445" key="SwitcherDM" timestamp="1638497774257">
       <screen x="0" y="23" width="1440" height="839" />
     </state>
@@ -200,10 +251,14 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="363" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.837@0.23.1440.837" timestamp="1638507746007" />
-    <state x="85" y="31" key="new project wizard" timestamp="1638502235610">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="487" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1638524994794">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="85" y="31" key="new project wizard/0.23.1440.837@0.23.1440.837" timestamp="1638412350689" />
+    <state x="487" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.837@0.23.1440.837" timestamp="1638524994794" />
+    <state x="85" y="31" key="new project wizard" timestamp="1638525047174">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="85" y="31" key="new project wizard/0.23.1440.837@0.23.1440.837" timestamp="1638525047174" />
     <state x="85" y="31" key="new project wizard/0.23.1440.838@0.23.1440.838" timestamp="1638502235610" />
     <state x="85" y="31" key="new project wizard/0.23.1440.839@0.23.1440.839" timestamp="1638497645473" />
   </component>
