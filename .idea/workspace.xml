@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0e5984-56f7-4d1e-90cc-964a45968578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/java/com/starterstudy/starter/config/ThreadPoolAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/springboot学习.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/nacosconfig/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/nacosconfig/demo/DemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,22 +142,42 @@
       <option name="presentableId" value="Default" />
       <updated>1638410373326</updated>
       <workItem from="1638410375939" duration="11660000" />
-      <workItem from="1638507719098" duration="8484000" />
+      <workItem from="1638507719098" duration="8698000" />
     </task>
+    <task id="LOCAL-00001" summary="starter">
+      <created>1638527536050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638527536050</updated>
+    </task>
+    <task id="LOCAL-00002" summary="starter 1">
+      <created>1638527584480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638527584480</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="starter" />
+    <MESSAGE value="starter 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="starter 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1638525719217">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="512" y="132" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1638525719217" />
-    <state x="291" y="23" key="CommitChangelistDialog2" timestamp="1638527535886">
+    <state x="291" y="23" key="CommitChangelistDialog2" timestamp="1638527584366">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="291" y="23" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1638527535886" />
+    <state x="291" y="23" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1638527584366" />
     <state width="1341" height="140" key="GridCell.Tab.0.bottom" timestamp="1638527274080">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -251,14 +263,18 @@
       <screen x="0" y="23" width="1440" height="839" />
     </state>
     <state width="592" height="445" key="SwitcherDM/0.23.1440.839@0.23.1440.839" timestamp="1638497774257" />
+    <state x="299" y="158" key="Vcs.Push.Dialog.v2" timestamp="1638527595098">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="299" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.837@0.23.1440.837" timestamp="1638527595098" />
     <state x="363" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1638507746007">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="363" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.837@0.23.1440.837" timestamp="1638507746007" />
-    <state x="487" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1638527538332">
+    <state x="487" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1638527587060">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="487" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.837@0.23.1440.837" timestamp="1638527538332" />
+    <state x="487" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.837@0.23.1440.837" timestamp="1638527587060" />
     <state x="85" y="31" key="new project wizard" timestamp="1638525047174">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
