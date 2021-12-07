@@ -10,6 +10,7 @@
         <module name="demo" />
         <module name="starter" />
         <module name="spring-cloud-nacos" />
+        <module name="plugin" />
         <module name="server" />
         <module name="openfeign" />
         <module name="consumer" />
@@ -21,6 +22,7 @@
       <module name="consumer" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="openfeign" options="-parameters" />
+      <module name="plugin" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="spring-cloud-nacos" options="-parameters" />
       <module name="starter" options="-parameters" />
