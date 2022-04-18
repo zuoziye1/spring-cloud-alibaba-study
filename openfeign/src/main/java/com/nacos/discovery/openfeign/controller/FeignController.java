@@ -1,8 +1,11 @@
 package com.nacos.discovery.openfeign.controller;
 
-import com.nacos.discovery.openfeign.feign.NameService;
+import com.nacos.discovery.server.api.HelloFeignApi;
+import com.nacos.discovery.server.model.Person;
+import com.nacos.discovery.server.model.PersonParam;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -14,10 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class FeignController {
 
     @Autowired
-    NameService nameService;
+    HelloFeignApi helloFeignApi;
 
-    @GetMapping("/hello")
-    public String hello(String name){
-        return nameService.hello(name);
+    @PostMapping("/getPerson")
+    public Person getPerson(@RequestBody PersonParam personParam) {
+        Person person = helloFeignApi.getPerson(personParam);
+        return person;
     }
 }
