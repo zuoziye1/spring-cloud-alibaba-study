@@ -18,3 +18,5 @@ spring:
           - dataId: extend-2-yaofeihu.yaml
             group: DEFAULT_GROUP
             refresh: true
+server:
+  port: 9002
